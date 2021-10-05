@@ -5,84 +5,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>HommeWork-2</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     </head>
+    <body>
     <header>
-        <a href="./index.html"><span>Web</span>Studio</a>
+        <a href="./index.html" class="logo-header"> <span class="logo-web">Web</span>Studio </a>
         <nav>
-            <ul>
+            <ul class="header-links list">
                 <li><a href="./index.html">Студия</a></li>
                 <li><a href="./portfolio.html">Портфолио</a></li>
                 <li><a href="">Контакты</a></li>
             </ul>
           </nav>
-            <div>
+            <div class="header-contacts list">
                 <a href="info@devstudio.com">info@devstudio.com</a>
                 <a href="+380961111111">+38 096 111 11 11</a>
             </div>
     </header>
     <main>
       <section>
-        <a href="">Все</a>
-        <a href="">Веб-сайты</a>
-        <a href="">Приложения</a>
-        <a href="">Дизайн</a>
-        <a href="">Маркетинг</a>
-      </section>
-      <section>
-        <div>
+        <h1 hidden>Портфолио веб-страницы</h1>
+        <ul class="list">
+          <li><button class="filter-btn" type="button">Все</button></li>
+          <li><button class="filter-btn" type="button">Веб-сайты</button></li>
+          <li><button class="filter-btn" type="button">Приложения</button></li>
+          <li><button class="filter-btn" type="button">Дизайн</button></li>
+          <li><button class="filter-btn" type="button">Маркетинг</button></li>
+        </ul>
+        <ul class="our-projects list">
           <ul>
             <li>
-              <img src="./img/webside.jpg" height="283,62" width="370" alt="">
+              <img src="./img/webside.jpg" 
+              height="283,62" 
+              width="370" 
+              alt="">
               <h2>Технокряк</h2>
               <p>Веб-сайт</p>
               <li>
-              <img src="./img/designe_new_orlean_vs_golden_star.jpg" height="283,62" width="370" alt="">
+              <img src="./img/designe_new_orlean_vs_golden_star.jpg" 
+              height="283,62" 
+              width="370" 
+              alt="">
               <h2>Постер New Orlean vs Golden Star</h2>
               <p>Дизайн</p>
             </li>
             <li>
-              <img src="./img/application_seafood.jpg" height="283,62" width="370" alt="">
+              <img src="./img/application_seafood.jpg" 
+              height="283,62" 
+              width="370" 
+              alt="">
               <h2>Ресторан Seafood</h2>
               <p>Приложение</p>
             </li>
             <li>
-              <img src="./img/marketing_prime.jpg" height="283,62" width="370" alt="">
+              <img src="./img/marketing_prime.jpg" 
+              height="283,62" 
+              width="370" 
+              alt="">
               <h2>Проект Prime</h2>
               <p>Маркетинг</p>
             </li>
             <li>
-              <img src="./img/application_boxes.jpg" height="283,62" width="370" alt="">
+              <img src="./img/application_boxes.jpg" 
+              height="283,62" 
+              width="370" 
+              alt="">
               <h2>Проект Boxes</h2>
               <p>Приложение</p>
             </li>
             <li>
-              <img src="./img/webside_inspirstion_has_no_borders.jpg" height="283,62" width="370" alt="">
+              <img src="./img/webside_inspirstion_has_no_borders.jpg" 
+              height="283,62" 
+              width="370" 
+              alt="">
               <h2>Inspiration has no Borders</h2>
               <p>Веб-сайт</p>
             </li>
             <li>
-              <img src="./img/designe_limited_edition.jpg " height="283,62" width="370" alt="">
+              <img src="./img/designe_limited_edition.jpg " 
+              height="283,62" 
+              width="370" 
+              alt="">
               <h2>Издание Limited Edition</h2>
               <p>Дизайн</p>
             </li>
             <li>
-              <img src="./img/marketing_LAB.jpg" height="283,62" width="370" alt="">
+              <img src="./img/marketing_LAB.jpg" 
+              height="283,62" 
+              width="370" 
+              alt="">
               <h2>Проект LAB</h2>
               <p>Маркетинг</p>
             </li>
             <li>
-              <img src="./img/application_growing_business.jpg" height="283,62" width="370" alt="">
+              <img src="./img/application_growing_business.jpg" 
+              height="283,62" 
+              width="370" 
+              alt="">
               <h2>Growing Business</h2>
               <p>Приложение</p>
             </li>
           </ul>
-        </div>
       </section>
     </main>
-    <footer>
-      <a href="./index.html"><span>Web</span>Studio</a>
+    <footer class="footer">
+      <a href="./index.html" class="logo-footer"> <span class="logo-web">Web</span>Studio </a>
       <address>
-        <a href="https://goo.gl/maps/TRw34pdpkRkBejjk9">г. Киев, пр-т Леси Украинки, 26</a><br>
+        <a class="footer-address link" href="https://goo.gl/maps/TRw34pdpkRkBejjk9">г. Киев, пр-т Леси Украинки, 26</a><br>
         <a href="info@devstudio.com">info@devstudio.com</a>
         <a href="+380961111111">+38 096 111 11 11</a>
       </address>

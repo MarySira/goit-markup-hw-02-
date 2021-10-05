@@ -1,0 +1,19 @@
+:root{
+    --accent-color: #2196f3;
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --logo-header: #000000;
+    --logo-footer: #ffffff;
+    --primary-white-color: #ffffff;
+    --dark-bg-c: #2f303a;
+    --filter-btn-c: #f5f4fa;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--title-text-color);
+    letter-spacing: 0.03em;
+  }
