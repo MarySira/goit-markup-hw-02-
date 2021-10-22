@@ -14,9 +14,6 @@ body{
 
 }
 .logo-header{
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
     font-size: 26px;
     line-height: 1.2;
     color: var(--title-text-color);
@@ -25,22 +22,22 @@ body{
 .header-links a{
     color: var(--title-text-color);
 }
+.header-contacts{
+    
+}
+.header-link-contacts{
+    color: var(--primary-text-color);
+}
 .link:focus,
 .link:hover,
 .link:active{
     color: var(--accent-color);
-}
-.header-link-contacts{
-    font-style: normal;
-    color: var(--title-text-color);
 }
 .hero{
     background-color: var(--dark-bg-c);
 }
 .hero-title{
     color: var(--primary-white-color);
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -48,53 +45,81 @@ body{
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+.hero-type{
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
 .logo-web{
     color: var(--accent-color);
 }
+.heading{
+    color: var(--title-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
 .feature-title{
     color: var(--title-text-color);
-    font-family: Roboto;
-    font-weight: bold;
-    font-style: normal;
     font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    line-height: 1.7; 
+    text-transform: uppercase;    
 }
-
-.second-list h2{
+.feature-type{
+    color: var(--primary-text-color);  
+    font-size: 16px;
+    line-height: 1,9;
+    }
+.what-we-do-title{
     color: var(--title-text-color);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-}
-.our-team{
+    list-style-type: none;
+    
     
 }
-.list h2{
+.what-we-do-title h2{
     color: var(--title-text-color);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+    list-style-type: none;
+}
+.list{
+    list-style-type: none;
+}
+.team-section h2{
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    list-style-type: none;
 }
 .our-team h3{
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 }
+
 .footer{
     background-color: var(--dark-bg-c);
     
 }
+.footer-address{
+color: var(--primary-white-color);
+font-style: normal;
+}
 .footer-link{
     font-style: normal;
-    color: var(--primary-white-color);
+    color: var(--primary-white-color)  rgba(255, 255, 255, 0.6);
+   
+
 }
 .order-button{
     background-color: var(--accent-color);
@@ -107,26 +132,23 @@ body{
 .order-button:active,
 .order-button:hover,
 .order-button:focus{
-    background-color: var(--accent-color);
+    background-color:var(--accent-color);
+    color: var(--primary-white-color);
 }
 .filter-btn:hover,
 .filter-btn:focus,
 .filter-btn:active{
     background-color: var(--accent-color);
-    color: var(--title-text-color);
-
+    color: var(--primary-white-color);
 }
 .link.active {
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
+    color: var(--accent-color);
 }
 .link{
     text-decoration: none;
       
 }
-li{
-    list-style-type: none;
-}
+
 .logo-footer{
     font-family: Raleway;
     font-style: normal;
